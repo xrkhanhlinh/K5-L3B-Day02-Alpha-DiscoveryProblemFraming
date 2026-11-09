@@ -292,6 +292,7 @@ Liệu hệ thống có hoạt động ổn định khi thay đổi ánh sáng, 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
+|---|---|---|
 | Các lỗi nghiêm trọng thường xuất hiện với tần suất thấp nên dữ liệu huấn luyện có thể mất cân bằng. Ngoài ra, việc thu thập và gán nhãn hình ảnh lỗi đòi hỏi chuyên môn của nhân viên QC. | Đồng ý | Chuyển hướng bài toán từ classification thành Anomaly Detection |
 | Việc giảm thời gian phân tích hình ảnh không đồng nghĩa với việc giảm tương ứng số lượng nhân viên. Hệ thống vẫn cần người giám sát, xử lý ngoại lệ và kiểm tra các cảnh báo. | Không đồng ý | Chắc chắn số người cần để vận hành hệ thống trên sẽ giảm bớt bởi chỉ cần 1-2 thợ giỏi quan sát quá trình từ đầu đến cuối thông qua camera. Bản thân dây chuyền không AI đã hoạt động tốt hơn là chỉ sử dụng nhân công thường |
 
