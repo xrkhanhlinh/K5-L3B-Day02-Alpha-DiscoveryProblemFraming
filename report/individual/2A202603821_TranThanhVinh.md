@@ -292,6 +292,7 @@ Liệu hệ thống có hoạt động ổn định khi thay đổi ánh sáng, 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
+|---|---|---|
 | Các lỗi nghiêm trọng thường xuất hiện với tần suất thấp nên dữ liệu huấn luyện có thể mất cân bằng. Ngoài ra, việc thu thập và gán nhãn hình ảnh lỗi đòi hỏi chuyên môn của nhân viên QC. | Đồng ý | Chuyển hướng bài toán từ classification thành Anomaly Detection |
 | Việc giảm thời gian phân tích hình ảnh không đồng nghĩa với việc giảm tương ứng số lượng nhân viên. Hệ thống vẫn cần người giám sát, xử lý ngoại lệ và kiểm tra các cảnh báo. | Không đồng ý | Chắc chắn số người cần để vận hành hệ thống trên sẽ giảm bớt bởi chỉ cần 1-2 thợ giỏi quan sát quá trình từ đầu đến cuối thông qua camera. Bản thân dây chuyền không AI đã hoạt động tốt hơn là chỉ sử dụng nhân công thường |
 
@@ -332,19 +333,33 @@ Liệu hệ thống có hoạt động ổn định khi thay đổi ánh sáng, 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
 Tôi thấy được vấn đề từ phía những người không làm tech. Ví dụ như bạn nhóm trưởng khá đam mê về sinh học. 
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
 Nhóm mình không, vì thực ra mọi người cũng thường nghĩ đến vấn đề trước
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
 Tôi không, nhưng tôi tự đổi ý kiến của chính mình.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
 Không, nhưng nó đưa cho tôi một số gợi ý để tôi nghĩ thêm
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
 Đó là đưa một vấn đề chung chung về thành bài toán cụ thể và hiểu được sử dụng AI ở bước nào.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
 Tôi không đổi điều gì tôi nghĩ thế
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-problem là quản lý chi tiêu thông minhminh. Quy trình là trước mỗi khi thanh toán sẽ có AI đưa ra quyết định. Metric sẽ là số tiền tiết kiệm được cho người dùng, số khách hàng, số lần mở app, ... Mức can thiệp AI: AI được quyền can thiệp vào việc chi tiêu của người dùng, tức là trước mỗi khi người dùng chuẩn bị gửi tiền hệ thông sẽ đọc xem giao dịch đó có ok hay không.
+
+problem là quản lý chi tiêu thông minh. Quy trình là trước mỗi khi thanh toán sẽ có AI đưa ra quyết định. Metric sẽ là số tiền tiết kiệm được cho người dùng, số khách hàng, số lần mở app, ... Mức can thiệp AI: AI được quyền can thiệp vào việc chi tiêu của người dùng, tức là trước mỗi khi người dùng chuẩn bị gửi tiền hệ thông sẽ đọc xem giao dịch đó có ok hay không.
+
 ---
 
 ## 7. Tài liệu tham khảo
