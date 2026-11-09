@@ -208,20 +208,22 @@ Tổng hợp để thực hiện nhiệm vụ
 **Kết luận CP2:** Ưu tiên Card #1 vì đây là vấn đề xuất phát trực tiếp từ trải nghiệm nghiên cứu cá nhân, có dữ liệu và phương pháp đánh giá rõ ràng. Giải pháp phù hợp ban đầu là tự động hóa quy trình bằng workflow có kiểm chứng, sau đó mới xác định những bước thực sự cần AI.
 
 
+
+
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Đề xuất 3 vấn đề, phân tích pain, đối tượng và tác động. | Tạo cơ sở để nhóm tổng hợp và so sánh đề tài. |
+| Phản biện bài của bạn khác | Chuẩn bị câu hỏi: Hệ thống phát hiện trộm xe phân biệt hành vi bất thường thế nào? Dữ liệu huấn luyện có đủ không? | Làm rõ rủi ro nhận diện sai và tính khả thi của giải pháp. |
+| Nhận phản biện | Chưa có ghi chép về câu hỏi phản biện trực tiếp. Tôi tự xem xét lại sự cần thiết của AI và phương án dùng Rule. | Nhận ra cần kiểm chứng vấn đề trước khi lựa chọn công nghệ. |
+| Gom cluster / cây OST | Tham gia tổng hợp các vấn đề, phân nhóm theo pain và đối tượng. | Hỗ trợ thu hẹp danh sách candidate; cây OST cần đối chiếu báo cáo nhóm. |
+| Chọn candidate problem | Cùng nhóm xem xét các đề tài và thống nhất chọn AI Transaction Intelligence. | Xác định một vấn đề chung để tiếp tục nghiên cứu. |
+| Kiểm chứng / research | Đề xuất kiểm chứng nhu cầu và so sánh các ứng dụng tài chính hiện có. | Xác định các giả định còn thiếu bằng chứng, tránh khẳng định hiệu quả khi chưa thử nghiệm. |
+| Quy trình nhóm | Phân tích quy trình đối soát thủ công và phương án kết hợp Rule, AI, người dùng. | Xác định điểm nghẽn và vị trí AI có thể hỗ trợ. |
+| Problem Statement | Tập trung vào giao dịch chi hộ, hoàn tiền và nội dung không rõ ràng. | Thu hẹp phạm vi, làm rõ vấn đề cần giải quyết. |
+| Mức can thiệp AI | So sánh No AI, Rule, Workflow và Agent; đề xuất Workflow kết hợp Rule. | Hạn chế tự động hóa không cần thiết, giữ quyền kiểm soát cho người dùng. |
+| Quyết định | Đề xuất Not Yet khi chưa đủ bằng chứng về nhu cầu và độ chính xác. | Xác định điều kiện cần kiểm chứng trước khi triển khai. |
 
 ---
 
@@ -229,35 +231,75 @@ Tổng hợp để thực hiện nhiệm vụ
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý, rà soát vấn đề. | Làm rõ Job Story. | Đề xuất pain thiếu bằng chứng. | Ưu tiên vấn đề thực tế. |
+| CP2 Problem Card | Phản biện Problem Card. | Phát hiện thiếu bottleneck và metric. | Tự giả định số liệu. | Không dùng số liệu chưa kiểm chứng. |
+| CP4 Research | Gợi ý giải pháp tương tự. | Hỗ trợ so sánh công cụ. | Nhận định thiếu nguồn. | Kiểm tra lại thông tin và nguồn. |
+| CP5 Quy trình | Phân tích quy trình trước/sau. | Xác định bước có thể tự động hóa. | Lạm dụng AI ở bước đơn giản. | Ưu tiên Rule khi đủ dùng. |
+| CP5–6 Problem Statement | Kiểm tra logic và phạm vi. | Phát hiện vấn đề chưa cụ thể. | Đề xuất metric thiếu cơ sở. | Làm rõ bottleneck và cách đo. |
+| CP6 Mức can thiệp / quyết định | So sánh các mức AI và rủi ro. | Hỗ trợ đánh giá phương án. | Thiên về giải pháp phức tạp. | Chọn mức can thiệp đơn giản, có kiểm soát. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+### 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+- Cần đánh giá vấn đề theo nhu cầu thực tế, mức độ ảnh hưởng và khả năng kiểm chứng.
+- Một ý tưởng công nghệ hấp dẫn chưa chắc là vấn đề cần ưu tiên.
+- Việc tổng hợp nhiều đề tài giúp nhóm có góc nhìn đa dạng trước khi lựa chọn.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+### 6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+- Điểm cần tự kiểm tra: nhóm có nghĩ đến AI trước khi làm rõ pain của người dùng không?
+- Cách xử lý phù hợp là xác định actor, bottleneck và phương án không AI trước khi chọn công nghệ.
+- Chỉ đề xuất AI tại bước có giá trị bổ sung so với Rule.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+### 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+- Quan điểm có thể xem xét lại: sử dụng AI hoặc Agent để tự động hóa nhiều bước.
+- Câu hỏi quan trọng: Vì sao không dùng Rule, và ai chịu trách nhiệm khi AI sai?
+- Hướng điều chỉnh đề xuất: dùng Workflow có Rule xử lý trường hợp rõ ràng và người dùng xác nhận trường hợp mơ hồ.
+- Chưa có thông tin xác nhận đây là một lần bạn nhận phản biện trực tiếp.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+### 6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+- Các ứng dụng tài chính hiện có đã hỗ trợ một phần việc ghi nhận, phân loại và quản lý khoản chi.
+- Vì vậy, cần kiểm tra xem vấn đề nhóm chọn có thực sự chưa được giải quyết đầy đủ hay không.
+- Chưa có kết quả phỏng vấn hoặc khảo sát được cung cấp để kết luận về mức độ bất ngờ.
+
+### 6.5. Điều khó nhất khi viết Problem Statement là gì?
+
+- Thu hẹp vấn đề quản lý tài chính thành một pain cụ thể.
+- Xác định bottleneck có thể đo lường thay vì mô tả khó khăn chung chung.
+- Đưa ra baseline, target và boundary có cơ sở, tránh đặt chỉ số chủ quan.
+
+### 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
+
+- Ưu tiên kiểm chứng nhu cầu trước khi lựa chọn giải pháp.
+- So sánh rõ phương án No AI, Rule và Workflow.
+- Đặt câu hỏi mạnh hơn về dữ liệu đầu vào, chi phí, độ chính xác và hậu quả khi AI sai.
+- Yêu cầu bằng chứng trước khi khẳng định giải pháp tạo ra giá trị.
+
+### 6.7. Hiểu bài
+
+1. **Problem:** Người dùng gặp khó khăn khi phân loại và đối soát giao dịch chi hộ, hoàn tiền hoặc nội dung không rõ ràng.
+2. **Quy trình:** Người dùng kiểm tra lịch sử, phân loại, đối chiếu và xác nhận giao dịch thủ công.
+3. **Metric:** Đánh giá bằng thời gian xử lý, độ chính xác và tỷ lệ sai sót.
+4. **Boundary:** AI không tự chuyển tiền, xác nhận thanh toán hoặc thay đổi dữ liệu tài chính quan trọng.
+5. **Mức can thiệp:** Đề xuất Workflow kết hợp Rule và AI, có người dùng xác nhận kết quả.
+6. **Quyết định:** Đề xuất Not Yet cho đến khi kiểm chứng được nhu cầu, hiệu quả và độ an toàn.
 
 ---
 
 ## 7. Tài liệu tham khảo
+
+1. Torres, T. (2023). *Opportunity Solution Trees*. https://www.producttalk.org/opportunity-solution-trees/
+2. Fitzpatrick, R. (2013). *The Mom Test*. https://www.momtestbook.com/
+3. Google PAIR. *People + AI Guidebook*. https://pair.withgoogle.com/guidebook-v2/
+4. NIST (2023). *AI Risk Management Framework*. https://doi.org/10.6028/NIST.AI.100-1
+5. Splitwise. *Expense Sharing*. https://www.splitwise.com/
+6. Copilot Money. *Personal Finance Management*. https://copilot.money/
+
+
 
 -
