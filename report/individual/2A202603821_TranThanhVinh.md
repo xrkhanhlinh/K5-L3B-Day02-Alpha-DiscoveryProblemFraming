@@ -318,8 +318,8 @@ Liệu hệ thống có hoạt động ổn định khi thay đổi ánh sáng, 
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
+| CP1 Scan | Lấy đề tài gợi ý | Đưa đề tài gợi ý | Đưa ra đề tài cần có AI | Tôi tự nghĩ |
+| CP2 Problem Card | Lọc đề tài | Đưa ra phương pháp đánh giá | Số liệu có thể không chuẩn | Tôi xem lại số liệu và chỉnh lại |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
