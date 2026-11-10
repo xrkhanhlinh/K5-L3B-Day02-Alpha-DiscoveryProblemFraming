@@ -10,7 +10,6 @@
 - Candidate problem được chọn (1 câu): Khi thu nhập về không đều và tiền nằm ở nhiều nguồn, học viên làm freelance/part-time khó đối soát giao dịch và tính lại ngân sách theo tiền thực có để biết mức chi phù hợp trước kỳ rà soát tiếp theo, làm tăng nguy cơ hụt tiền cho các khoản thiết yếu.
 - Quyết định cuối: **Not Yet** — tiếp tục kiểm chứng nhu cầu, dữ liệu đầu vào và lợi ích so với Rule/công cụ có sẵn trước khi triển khai.
 
-> Cơ sở tổng hợp: đã đọc toàn bộ bốn báo cáo cá nhân [Linh](../individual/2A202603845_NguyenThiKhanhLinh.md), [Hằng](../individual/2A202603840_DoThiThuHang.md), [Vinh](../individual/2A202603821_TranThanhVinh.md), [Quỳnh Anh](../individual/2A202603875_VuNgocQuynhAnh.md). Những phần ghi **đề xuất**, **ước lượng** hoặc **chưa đo** là suy luận bổ sung cho bản nhóm, cần nhóm xác nhận; không phải kết quả phỏng vấn, thực nghiệm hay đồng thuận đã được ghi nhận. Mục CP3 được hệ thống hóa lại từ tài liệu, không thay thế biên bản pitch trực tiếp. Research bổ sung dùng nguồn chính thức, truy cập ngày 09/11/2026.
 
 ---
 
