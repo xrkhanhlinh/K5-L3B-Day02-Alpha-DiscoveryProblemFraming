@@ -37,20 +37,29 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### DoThiThuHang-2A202603840
 
 **Phần việc phụ trách:**
 
--
-
+Tham gia xây dựng và hoàn thiện nội dung báo cáo nhóm, tập trung vào các hoạt động từ CP2 đến CP7.
+Phân tích, lựa chọn và đánh giá các Problem Cards dựa trên tính thực tế, mức độ cần thiết và khả năng triển khai giải pháp.
+Tham gia đề xuất giải pháp ứng dụng AI hỗ trợ quản lý tài chính cá nhân.
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+Xây dựng và sắp xếp Top 3 Problem Cards tại CP2, giải thích lý do lựa chọn và xác định những điểm còn chưa chắc chắn cần kiểm chứng.
+Hoàn thiện nội dung phần 4 về những hoạt động và đóng góp cá nhân trong quá trình thực hiện CP3–CP7.
+Tham gia bổ sung, chỉnh sửa nội dung báo cáo tại phần 5 và phần 6, đảm bảo nội dung có tính liên kết và thống nhất với định hướng của nhóm.
+Phân tích và hoàn thiện câu 6.7 về giải pháp AI hỗ trợ quản lý tài chính cá nhân, tập trung vào việc tổng hợp số dư từ nhiều nguồn như tài khoản ngân hàng, ví điện tử và tiền mặt; theo dõi chi tiêu, đối soát giao dịch và đưa ra cảnh báo, gợi ý tiết kiệm.
+**Bằng chứng** (phần nào trong group_report.md, file nào trong report/assets/, commit nào):
 
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
--
+group_report.md: Nội dung Top 3 Problem Cards (CP2).
+group_report.md: Phần 4 – Những hoạt động và đóng góp cá nhân (CP3–CP7).
+group_report.md: Phần 5 và phần 6.7 – Nội dung đề xuất giải pháp AI hỗ trợ quản lý tài chính cá nhân.
+commit: update individual discovery problem framing report
 
 **Điều mình học được từ phần nhóm:**
 
--
+Biết cách xác định và đánh giá vấn đề thực tế dựa trên mức độ ảnh hưởng, tính cấp thiết và khả năng triển khai thay vì chỉ lựa chọn những ý tưởng có vẻ hấp dẫn.
+Hiểu rõ hơn cách ứng dụng AI vào giải quyết vấn đề đời sống, đặc biệt là hỗ trợ phân tích dữ liệu tài chính, theo dõi chi tiêu và đưa ra gợi ý phù hợp.
+Nhận ra rằng AI nên đóng vai trò trợ lý phân tích và hỗ trợ ra quyết định, không nên tự ý thực hiện các giao dịch tài chính thay cho người dùng.
+Rèn luyện kỹ năng làm việc nhóm, tổng hợp ý kiến, hoàn thiện nội dung báo cáo.
