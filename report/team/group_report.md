@@ -107,7 +107,11 @@ Giả định nhóm kiểm chứng trong buổi này: báo cáo cá nhân chưa 
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: tự thuật trong báo cáo cá nhân và desk research bổ sung. Quỳnh Anh có ghi “hỏi 3 bạn”, nhưng kết quả vẫn để chỗ trống; reflection đồng thời nói cần hỏi thêm người ngoài nhóm. Do thiếu snapshot, thời điểm, câu trả lời và tiêu chí chọn người, chưa tính thành 3 cuộc phỏng vấn đã xác thực. Chưa có survey hoặc log giao dịch đính kèm.
+Cách đã dùng: tự thuật trong báo cáo cá nhân và desk research bổ sung. Quỳnh Anh có ghi “hỏi 3 bạn”, nhưng kết quả vẫn để chỗ trống; reflection đồng thời nói cần hỏi thêm người ngoài nhóm. Do thiếu snapshot, thời điểm, câu trả lời và tiêu chí chọn người, chưa tính thành 3 cuộc phỏng vấn đã xác thực. Đã có **survey online 6 người** do Quỳnh Anh thực hiện (kết quả ở bảng Tổng hợp bên dưới); chưa có log giao dịch đính kèm.
+
+![Survey: bật thông báo biến động số dư](../assets/cp4-survey-1.png)
+
+![Survey: điều gì giúp nhiều nhất](../assets/cp4-survey-2.png)
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
@@ -124,6 +128,7 @@ Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
+| Survey online (Quỳnh Anh) — `report/assets/cp4-survey-1.png`, `cp4-survey-2.png` | 6 | 5/6 (83,3%) có bật thông báo biến động số dư nhưng "không giúp kiểm soát được"; 0/6 chọn "có, và thấy vậy là đủ"; 0/6 chọn "không cần gì thêm". Nhu cầu (chọn tối đa 2): cảnh báo khi sắp vượt budget 4/6, biết ngay còn bao nhiêu so với budget sau mỗi lần trả tiền 3/6, giao dịch được tự phân loại 3/6. | Nhu cầu nhiều nhất (cảnh báo sắp vượt budget) giải được bằng Rule; dự đoán cuối tháng còn bao nhiêu tiền chỉ 2/6, nên chưa ủng hộ mạnh phần dự báo bằng AI. Mẫu nhỏ, chưa ghi tiêu chí chọn người trả lời và họ có thu nhập không đều hay không. |
 | Quỳnh Anh — Card #2 và reflection | 1 tự thuật; không tính là phỏng vấn độc lập | Nêu thu nhập không đều, nhẩm lại kế hoạch và nguy cơ phải xin thêm tiền. | Baseline hụt tiền còn dấu hỏi; thời gian chưa nhất quán; đồng tình của bạn cùng nhóm chưa chứng minh nhu cầu sử dụng. |
 | Hằng — mục 4–6 | 1 tự thuật | Nêu khó theo dõi tiền ở ngân hàng, MoMo và tiền mặt. | Chưa có giao dịch/log hoặc dữ liệu đại diện cho “văn hóa tiêu dùng người Việt”. |
 | Linh — mục 4 và 6.7 | 1 hướng phân tích; chưa có mẫu giao dịch | Chỉ ra chi hộ, hoàn tiền và nội dung không rõ là điểm cần đối soát. | Chưa đo mức phổ biến của các ngoại lệ hoặc mức đóng góp vào hụt tiền. |
@@ -347,7 +352,7 @@ Bộ eval đề xuất trước pilot: tối thiểu 30 tình huống có nhãn 
 ## 9. Hạn chế và hướng tiếp theo
 
 - Bốn báo cáo nhất quán ở hướng tài chính nhưng chưa nhất quán về trọng tâm và quyền Agent. Bản này nối các góc nhìn bằng một chuỗi dữ liệu → đối soát → ngân sách → người quyết định; cần nhóm xác nhận, không sửa thay reflection cá nhân.
-- Chưa có đủ bằng chứng CP4: không có snapshot độc lập, survey, log thời gian hay tập giao dịch xác thực. Nhận định về văn hóa tiêu dùng/đầu tư của người Việt chưa có nguồn đại diện nên không dùng để kết luận thị trường.
+- Chưa có đủ bằng chứng CP4: mới có survey 6 người (mẫu nhỏ, chưa rõ tiêu chí chọn người); chưa có snapshot độc lập, log thời gian hay tập giao dịch xác thực. Nhận định về văn hóa tiêu dùng/đầu tư của người Việt chưa có nguồn đại diện nên không dùng để kết luận thị trường.
 - Research là đọc nguồn chính thức, chưa kiểm thử app. Không khẳng định đã tìm được khoảng trống cạnh tranh; cần thử các tình huống cụ thể với công cụ có sẵn.
 - Metric và ngưỡng trong bản này là mục tiêu đề xuất; số bước là cách mô hình hóa, thời gian hiện tại chưa đo. Pilot nhỏ không chứng minh hiệu quả tài chính dài hạn hoặc quan hệ nhân quả.
 - Dữ liệu tiền mặt, chuyển nội bộ, chi hộ và hoàn tiền dễ thiếu/trùng; SMS/CSV cũng chưa chắc đầy đủ. Không dựa vào hệ thống khi dữ liệu chưa đối soát hoặc không cập nhật.
