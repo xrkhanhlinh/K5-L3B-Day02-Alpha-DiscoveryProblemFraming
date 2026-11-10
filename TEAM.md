@@ -63,3 +63,33 @@ Biết cách xác định và đánh giá vấn đề thực tế dựa trên m�
 Hiểu rõ hơn cách ứng dụng AI vào giải quyết vấn đề đời sống, đặc biệt là hỗ trợ phân tích dữ liệu tài chính, theo dõi chi tiêu và đưa ra gợi ý phù hợp.
 Nhận ra rằng AI nên đóng vai trò trợ lý phân tích và hỗ trợ ra quyết định, không nên tự ý thực hiện các giao dịch tài chính thay cho người dùng.
 Rèn luyện kỹ năng làm việc nhóm, tổng hợp ý kiến, hoàn thiện nội dung báo cáo.
+
+### TranThanhVinh-2A202603821
+
+**Phần việc phụ trách:**
+
+Tham gia khảo sát và đánh giá các bài toán ứng dụng AI ở CP1–CP2, tập trung vào các quy trình lặp lại, tốn thời gian và cần đọc/tổng hợp nhiều thông tin.
+Xây dựng 3 Problem Cards (VinFast – kiểm tra chất lượng bằng Computer Vision, Vinmec – xử lý hồ sơ y tế, Vinhomes – xử lý phản ánh cư dân) kèm quy trình hiện tại và quy trình có AI.
+Chuẩn bị hình ảnh quy trình cho báo cáo nhóm và mô tả hướng bài toán quản lý chi tiêu thông minh của nhóm.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+Quét 5 vấn đề ở CP1 theo các lăng kính Lặp lại, Tốn thời gian, Stakeholder pain.
+Chọn và xếp hạng Top 3 Problem Cards ở CP2, nêu lý do chọn và những điểm còn chưa chắc; chọn Card #1 (VinFast) để pitch kèm các câu hỏi cho nhóm phản biện (có thật sự cần AI, hậu quả khi bỏ sót lỗi nặng, chi phí triển khai, lỗi hiếm, thay đổi ánh sáng/góc chụp).
+Tiếp nhận phản biện của AI về Card #1: đồng ý chuyển hướng từ classification sang Anomaly Detection do dữ liệu lỗi mất cân bằng; giữ quan điểm về việc giảm nhân lực giám sát.
+Hoàn thiện phần Dùng AI (mục 5) và Reflection CP7 (mục 6), gồm câu 6.7 mô tả chuỗi problem → quy trình → metric → mức can thiệp AI của bài nhóm.
+Bổ sung ảnh quy trình cp2-workflow-card-1.png và cp5-workflow-future.png vào report/assets/.
+
+**Bằng chứng** (phần nào trong group_report.md, file nào trong report/assets/, commit nào):
+
+group_report.md: các dòng 7–9 của bảng CP3 (Card #1, #2, #3 của Thành Vinh); mô tả bài nhóm ở mục 6.7.
+report/individual/2A202603821_TranThanhVinh.md: toàn bộ mục 1–7.
+report/assets/: cp2-workflow-card-1.png, cp5-workflow-future.png.
+commit: CP2, CP7, ai log, Last minute, Fix table, Add photos.
+
+**Điều mình học được từ phần nhóm:**
+
+Biết nhìn vấn đề từ góc độ người dùng và người không làm kỹ thuật, ví dụ các bạn trong nhóm có góc nhìn riêng về lĩnh vực sinh học và tài chính.
+Hiểu rằng cần bắt đầu từ vấn đề cụ thể (ai gặp, ở bước nào, mất bao lâu) rồi mới xác định AI can thiệp ở bước nào, thay vì nghĩ giải pháp trước.
+Nhận ra AI nên hỗ trợ và có cơ chế chuyển cho người xác nhận khi độ tin cậy thấp hoặc trường hợp nghiêm trọng, thay vì tự quyết định hoàn toàn.
+Rèn luyện kỹ năng làm việc nhóm, tổng hợp ý kiến và đo lường vấn đề bằng metric trước/sau.
